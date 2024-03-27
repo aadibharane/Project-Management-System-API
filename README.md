@@ -13,7 +13,7 @@ Description: Create a new user in the Django admin panel.
 # Clients
 ## List All Clients
 
-URL: /api/clients/
+URL: /api/
 Method: GET
 Description: Retrieve a list of all clients.
 
