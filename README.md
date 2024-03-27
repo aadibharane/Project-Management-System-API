@@ -70,6 +70,6 @@ Description: Add a new project and assign users to it.
 
 # List Projects Assigned to Logged-In User
 
-URL: /api/project/
+URL: /api/projects/
 Method: GET
 Description: Retrieve all projects assigned to the logged-in user.
