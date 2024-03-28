@@ -9,10 +9,6 @@ class ClientViewSet(viewsets.ModelViewSet):
     queryset = Client.objects.all()
     serializer_class = ClientSerializer
 
-# class ClientDeleteView(DestroyAPIView):
-#     queryset = Client.objects.all()
-#     serializer_class = ClientSerializer
-
 
 class ProjectViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.all()
