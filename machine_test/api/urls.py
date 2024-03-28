@@ -8,6 +8,6 @@ router.register(r'projects', ProjectViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('create/',views.CreateAPIView.as_view(),name='client_create'),
+    path('create/',views.CreateClientAPIView.as_view(),name='client_create'),
     
 ]
