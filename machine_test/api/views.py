@@ -9,10 +9,10 @@ class ClientViewSet(viewsets.ModelViewSet):
     queryset = Client.objects.all()
     serializer_class = ClientSerializer
 
-class CreateProjectAPIView(CreateAPIView):
-    """This endpoint allows for creation of a todo"""
-    queryset = Project.objects.all()
-    serializer_class = ProjectSerializer
+class CreateClientAPIView(CreateAPIView):
+    queryset = Client.objects.all()
+    serializer_class = ClientSerializer
+
 
 class ProjectViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.all()
