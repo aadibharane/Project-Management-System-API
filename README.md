@@ -13,7 +13,7 @@ Description: Create a new user in the Django admin panel.
 # Clients
 ## List All Clients
 
-URL: /api/
+URL: /api/clients/
 Method: GET
 Description: Retrieve a list of all clients.
 
@@ -37,7 +37,7 @@ Description: Fetch information of a client, including projects assigned to its u
 
 # Update Client Information
 
-URL: /api/update/:id/
+URL: /api/clients/:id/
 Method: PUT or PATCH
 Body:
 json
@@ -56,8 +56,7 @@ Description: Delete a client's record.
 
 # Projects
 ## Create a New Project for a Client
-
-URL: /api/create/:id/projects/
+URL: /api/projects/:id/
 Method: POST
 Body:
 json
