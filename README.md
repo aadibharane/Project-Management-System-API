@@ -74,7 +74,7 @@ Body:
 json
 Copy code
 {
-  "project_name": "New Pproject Name"
+  "project_name": "New Project Name"
 }
 Description: Update information of a client.
 
