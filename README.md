@@ -19,7 +19,7 @@ Description: Retrieve a list of all clients.
 
 # Create a New Client
 
-URL: /api/create/
+URL: admin/api/client/add/
 Method: POST
 Body:
 json
@@ -56,7 +56,7 @@ Description: Delete a client's record.
 
 # Projects
 ## Create a New Project for a Client
-URL: /api/projects/:id/
+URL: /admin/api/project/add/
 Method: POST
 Body:
 json
@@ -66,6 +66,17 @@ Copy code
   "users": [{"id": 1}]
 }
 Description: Add a new project and assign users to it.
+
+## Update Project for a Client
+URL: /api/projects/:id/
+Method: PUT or PATCH
+Body:
+json
+Copy code
+{
+  "project_name": "New Pproject Name"
+}
+Description: Update information of a client.
 
 # List Projects Assigned to Logged-In User
 
