@@ -50,7 +50,7 @@ Description: Update information of a client.
 
 # Delete a Client
 
-URL: /api/delete/:id/
+URL: /api/client/:id/
 Method: DELETE
 Description: Delete a client's record.
 
